@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Monitors</name>
+   <name>a_Phones</name>
    <tag></tag>
-   <elementGuidId>42c60428-c786-4df0-bdc9-39e2f8a9dbaf</elementGuidId>
+   <elementGuidId>6350f222-c744-4ba8-a993-3d0bc8e45114</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#itemc</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='itemc'])[3]</value>
+         <value>//a[@id='itemc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9daef3ba-6413-4800-b39a-5f282bae0c09</webElementGuid>
+      <webElementGuid>12f5bccc-5ee6-4707-af49-05e86d28dd96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>7fce589a-b31b-4f3f-9559-93abd78b14fe</webElementGuid>
+      <webElementGuid>3eaa8421-7af3-4a0c-b321-06adaf30e9e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>id</name>
       <type>Main</type>
       <value>itemc</value>
-      <webElementGuid>3f16d8d5-aeda-495c-a381-d65f31d03632</webElementGuid>
+      <webElementGuid>f764678f-aa39-4e01-9434-23f08292b748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>byCat('monitor')</value>
-      <webElementGuid>ff12479c-13f6-419c-9952-f63ad1af636e</webElementGuid>
+      <value>byCat('phone')</value>
+      <webElementGuid>0cd31a00-a366-4759-8e33-aa69cb0b575b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>156a76dd-ac1c-4123-9b1b-1234401d2506</webElementGuid>
+      <webElementGuid>2b18fbb4-bcee-486c-acc9-6605efe2294f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Monitors</value>
-      <webElementGuid>6284328c-6638-48dd-8e92-3facaba45d6e</webElementGuid>
+      <value>Phones</value>
+      <webElementGuid>f7079fe9-a227-40aa-89d5-e51b0cba7d02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,54 +70,54 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
-      <webElementGuid>838fe476-9b21-4bdb-8c62-b89f77d3b70a</webElementGuid>
+      <webElementGuid>530cdf90-9ba0-40ca-a51e-18a740180b62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[@id='itemc'])[3]</value>
-      <webElementGuid>77cc8e72-32d2-4cd6-a2a2-8d922fb0ab26</webElementGuid>
+      <value>//a[@id='itemc']</value>
+      <webElementGuid>378063a3-7600-4542-ac47-ea73efbba49a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contcont']/div/div/div/a[4]</value>
-      <webElementGuid>9f1ddab4-5eb2-4c90-8c7a-b132d34d3a14</webElementGuid>
+      <value>//div[@id='contcont']/div/div/div/a[2]</value>
+      <webElementGuid>ba899a4c-497a-414f-9abb-63f286713e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Monitors')]</value>
-      <webElementGuid>75be1388-75ac-4806-be71-f1ad45341f8d</webElementGuid>
+      <value>//a[contains(text(),'Phones')]</value>
+      <webElementGuid>33b2c4c0-a1ea-4bc8-b35c-0ed4fc0fca70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>0ad7a0a4-6028-4c4a-98d1-f5e62d85f139</webElementGuid>
+      <value>(//a[contains(@href, '#')])[9]</value>
+      <webElementGuid>e4231156-9f1e-41ac-9a8c-52060cb5f8d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[4]</value>
-      <webElementGuid>4ee11d6a-2697-4155-8ff5-bf1198944472</webElementGuid>
+      <value>//div/div/div/a[2]</value>
+      <webElementGuid>e5b266e9-7ded-447d-8b06-fcb8209478b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]</value>
-      <webElementGuid>27514760-fa4f-4a98-8d4b-15762c9c9f38</webElementGuid>
+      <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Phones' or . = 'Phones')]</value>
+      <webElementGuid>38cd7b63-73d7-4741-8f45-d65645568254</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

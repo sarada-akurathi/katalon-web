@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Monitors</name>
+   <name>a_CATEGORIES</name>
    <tag></tag>
-   <elementGuidId>42c60428-c786-4df0-bdc9-39e2f8a9dbaf</elementGuidId>
+   <elementGuidId>33dbba27-d47f-4716-8094-4a1d2aa15cda</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#cat</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='itemc'])[3]</value>
+         <value>//a[@id='cat']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9daef3ba-6413-4800-b39a-5f282bae0c09</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
-      <webElementGuid>7fce589a-b31b-4f3f-9559-93abd78b14fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itemc</value>
-      <webElementGuid>3f16d8d5-aeda-495c-a381-d65f31d03632</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>byCat('monitor')</value>
-      <webElementGuid>ff12479c-13f6-419c-9952-f63ad1af636e</webElementGuid>
+      <webElementGuid>84a1b49c-4fa8-446f-97dd-ff5f092fda25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,70 +30,78 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>156a76dd-ac1c-4123-9b1b-1234401d2506</webElementGuid>
+      <webElementGuid>f31b2bf7-4b73-44c6-9c83-b6b1802557c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cat</value>
+      <webElementGuid>cd29b280-e9e3-4904-8e85-e623fde015bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Monitors</value>
-      <webElementGuid>6284328c-6638-48dd-8e92-3facaba45d6e</webElementGuid>
+      <value>CATEGORIES</value>
+      <webElementGuid>70514cc6-c85e-4b05-9a03-e18f6fadbee6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
-      <webElementGuid>838fe476-9b21-4bdb-8c62-b89f77d3b70a</webElementGuid>
+      <value>id(&quot;cat&quot;)</value>
+      <webElementGuid>ec62a543-6024-4ac4-9a3d-5e2dbb8fc3d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[@id='itemc'])[3]</value>
-      <webElementGuid>77cc8e72-32d2-4cd6-a2a2-8d922fb0ab26</webElementGuid>
+      <value>//a[@id='cat']</value>
+      <webElementGuid>3f3da320-1662-449a-a6ce-6e3c42f40e04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contcont']/div/div/div/a[4]</value>
-      <webElementGuid>9f1ddab4-5eb2-4c90-8c7a-b132d34d3a14</webElementGuid>
+      <value>//div[@id='contcont']/div/div/div/a</value>
+      <webElementGuid>fc5372c2-291b-4595-b254-d4c1ce61bc6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Monitors')]</value>
-      <webElementGuid>75be1388-75ac-4806-be71-f1ad45341f8d</webElementGuid>
+      <value>//a[contains(text(),'CATEGORIES')]</value>
+      <webElementGuid>8761e031-11d7-43a5-8469-7ad8fe5578b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>0ad7a0a4-6028-4c4a-98d1-f5e62d85f139</webElementGuid>
+      <value>(//a[contains(@href, '')])[12]</value>
+      <webElementGuid>5cf67e68-77b1-4bdb-bcb9-6182dfc6ccbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[4]</value>
-      <webElementGuid>4ee11d6a-2697-4155-8ff5-bf1198944472</webElementGuid>
+      <value>//div/div/div/a</value>
+      <webElementGuid>4452bbf5-cfb9-4fb2-b827-39c47ac970f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]</value>
-      <webElementGuid>27514760-fa4f-4a98-8d4b-15762c9c9f38</webElementGuid>
+      <value>//a[@id = 'cat' and (text() = 'CATEGORIES' or . = 'CATEGORIES')]</value>
+      <webElementGuid>ae12efc6-7edb-456b-ae0e-349af5953deb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

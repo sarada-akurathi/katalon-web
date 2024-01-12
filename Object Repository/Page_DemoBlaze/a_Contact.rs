@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Monitors</name>
+   <name>a_Contact</name>
    <tag></tag>
-   <elementGuidId>42c60428-c786-4df0-bdc9-39e2f8a9dbaf</elementGuidId>
+   <elementGuidId>e02a6239-c8a1-4304-b61d-d406508ceee6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='itemc'])[3]</value>
+         <value>//div[@id='navbarExample']/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9daef3ba-6413-4800-b39a-5f282bae0c09</webElementGuid>
+      <webElementGuid>f0717c7b-4764-4d6b-bb15-5946f8b6845e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>f8382d12-e02e-48dd-879a-17f6cd351cbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>91643be7-8208-49eb-b5f5-392e43faa147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#exampleModal</value>
+      <webElementGuid>ecd0f502-3577-49d1-8682-7d26f3845606</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,94 +54,62 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>7fce589a-b31b-4f3f-9559-93abd78b14fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itemc</value>
-      <webElementGuid>3f16d8d5-aeda-495c-a381-d65f31d03632</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>byCat('monitor')</value>
-      <webElementGuid>ff12479c-13f6-419c-9952-f63ad1af636e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>list-group-item</value>
-      <webElementGuid>156a76dd-ac1c-4123-9b1b-1234401d2506</webElementGuid>
+      <webElementGuid>dbfdd026-cfff-42b7-ad65-b41ea174b474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Monitors</value>
-      <webElementGuid>6284328c-6638-48dd-8e92-3facaba45d6e</webElementGuid>
+      <value>Contact</value>
+      <webElementGuid>c1159c45-8d03-47e0-8a55-84ee928239c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
-      <webElementGuid>838fe476-9b21-4bdb-8c62-b89f77d3b70a</webElementGuid>
+      <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>661d8511-6f5b-4f5b-8713-013841f198de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//a[@id='itemc'])[3]</value>
-      <webElementGuid>77cc8e72-32d2-4cd6-a2a2-8d922fb0ab26</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contcont']/div/div/div/a[4]</value>
-      <webElementGuid>9f1ddab4-5eb2-4c90-8c7a-b132d34d3a14</webElementGuid>
+      <value>//div[@id='navbarExample']/ul/li[2]/a</value>
+      <webElementGuid>e5f77c68-c81d-4589-8a9c-dd9eb6105127</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Monitors')]</value>
-      <webElementGuid>75be1388-75ac-4806-be71-f1ad45341f8d</webElementGuid>
+      <value>//a[contains(text(),'Contact')]</value>
+      <webElementGuid>ce9e6e9a-c583-447a-9f29-18c106fc987f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>0ad7a0a4-6028-4c4a-98d1-f5e62d85f139</webElementGuid>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>bdd29206-3651-4a49-9cce-d9c67463fa2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[4]</value>
-      <webElementGuid>4ee11d6a-2697-4155-8ff5-bf1198944472</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>1be4882c-2878-45d6-a1f0-d85b7b4917c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]</value>
-      <webElementGuid>27514760-fa4f-4a98-8d4b-15762c9c9f38</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Contact' or . = 'Contact')]</value>
+      <webElementGuid>a4cc583e-b391-4804-8882-8eaacab3d491</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

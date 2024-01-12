@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6e9775aa-fcf7-4d88-8c1a-8dbdb7d2b2c7</webElementGuid>
+      <webElementGuid>3df4d208-ca4f-43dc-b2c5-9c8845fd4145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>16418e45-aa9a-4b7a-9923-4887a1808721</webElementGuid>
+      <webElementGuid>fcf2297e-d4f3-4c17-ae70-e043ecdf3777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>itemc</value>
-      <webElementGuid>f506632a-ca9b-4d61-8206-152b5ace28a5</webElementGuid>
+      <webElementGuid>61e1076b-7c02-48c4-8acd-9fb9eb6d2a89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>byCat('notebook')</value>
-      <webElementGuid>cb093fe5-b7b1-4146-b6a2-8689e06564e8</webElementGuid>
+      <webElementGuid>8bd01a89-f567-4cf0-a7db-11c881b20d7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>5553f4e0-973c-400b-8810-4006f2e7feaa</webElementGuid>
+      <webElementGuid>b7357182-d23c-4a59-b40c-f5deaaa6c653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Laptops</value>
-      <webElementGuid>0ae5215d-57cd-4a68-9d21-67f3e35f5043</webElementGuid>
+      <webElementGuid>020cb14f-ed68-4a38-acd5-965381ac0fd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
-      <webElementGuid>127b1d7a-7a8e-4ab5-af27-d53b896f13e0</webElementGuid>
+      <webElementGuid>adb3180a-6dc6-40d3-978c-e222cb030494</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@id='itemc'])[2]</value>
-      <webElementGuid>f1ae50d2-92e5-4532-855c-84ce3f1c8d03</webElementGuid>
+      <webElementGuid>ba83a836-81f8-4989-af34-1011fcce1a66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div/div/a[3]</value>
-      <webElementGuid>e4415ad2-e010-4a12-9228-e512361dbf8b</webElementGuid>
+      <webElementGuid>bed72715-df3b-40d9-8686-613c9310a81b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Laptops')]</value>
-      <webElementGuid>8a94f59a-0868-4040-b083-6d41803b4e1d</webElementGuid>
+      <webElementGuid>162f9947-820b-4bc8-9a5a-412dd02fa8bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[10]</value>
-      <webElementGuid>f20e2627-f851-4873-a135-04134ae32549</webElementGuid>
+      <webElementGuid>621bedc8-56d5-4864-bdb9-dbfe95e9fdad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>2e2538a9-10a9-49fc-968e-a9bf76a91a7e</webElementGuid>
+      <webElementGuid>43090902-0498-4aad-a8d3-3559da4b40b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Laptops' or . = 'Laptops')]</value>
-      <webElementGuid>d3a411ad-b1e6-4316-adaa-6209274d1a56</webElementGuid>
+      <webElementGuid>f146a11a-fa5b-46ee-aaf1-c430e9038d89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

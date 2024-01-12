@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b25561c9-130a-4afd-a588-25cebdfaa17e</webElementGuid>
+      <webElementGuid>eea73fb4-0db2-4cd5-9a1c-889b81732b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>3f4734b8-e5b6-4533-9600-e998f6b0b5d8</webElementGuid>
+      <webElementGuid>26ae53db-4302-42f5-a73e-8828c679eac7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>cart.html</value>
-      <webElementGuid>f12bf517-2520-45e3-b915-4c19936ccd06</webElementGuid>
+      <webElementGuid>bc07c2ce-d42b-4a32-9611-b05663374e9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cartur</value>
-      <webElementGuid>b675fa2f-1364-430d-92a0-97f173c49a31</webElementGuid>
+      <webElementGuid>01934fab-2f95-4bc4-83ab-672d6b7c418e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cart</value>
-      <webElementGuid>dbadf827-b8d5-429f-a9ed-969e6e0b8594</webElementGuid>
+      <webElementGuid>ea4fc81d-a349-42ca-a4bf-c2e11c4da810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cartur&quot;)</value>
-      <webElementGuid>16715f7f-ee5f-4ec6-b83f-f3f9fbd7f67d</webElementGuid>
+      <webElementGuid>054b2303-df11-4613-9685-ff773d532ba7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='cartur']</value>
-      <webElementGuid>ecd25ef7-5eed-4847-9654-15b6d185e2c8</webElementGuid>
+      <webElementGuid>b9c436f6-a80c-4a99-9abf-3baf22e78351</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarExample']/ul/li[4]/a</value>
-      <webElementGuid>1b2e5353-6d4f-4825-95b2-f1a619a75137</webElementGuid>
+      <webElementGuid>19f91dba-34ec-442a-9c34-d1fe50b26867</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cart')]</value>
-      <webElementGuid>3a6e4451-387b-4058-aca3-087f3362db80</webElementGuid>
+      <webElementGuid>88fafaa3-7637-43aa-a9d2-4a2647c06729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'cart.html')]</value>
-      <webElementGuid>add53c99-f7f1-45f8-ae80-4d0a4c63b983</webElementGuid>
+      <webElementGuid>181321f0-6632-46a2-80a1-a8e6c2fda328</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a</value>
-      <webElementGuid>77d3174a-b53b-408b-96b0-ba6507219aaa</webElementGuid>
+      <webElementGuid>33c25bac-9e4f-4dfc-8fd3-41e0e5e03f1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'cartur' and @href = 'cart.html' and (text() = 'Cart' or . = 'Cart')]</value>
+      <webElementGuid>ef82a13a-f236-43b4-abb9-11bb51bd94d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>911a98c1-1682-4222-ae2e-764b58831a67</webElementGuid>
+      <webElementGuid>54e200e9-0ff9-47fb-9ca9-c4f01ad47f15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>prod.html?idp_=1</value>
-      <webElementGuid>c70b0c6e-87bc-4aea-bc98-0585fd504dbd</webElementGuid>
+      <webElementGuid>0b1e009c-ab20-4957-8f15-80459aa07505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>hrefch</value>
-      <webElementGuid>5ae8004c-5919-47e5-8669-8ca70138742c</webElementGuid>
+      <webElementGuid>cf69943d-8efa-4864-907c-81cab5c323f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Samsung galaxy s6</value>
-      <webElementGuid>13dd7792-492e-4c69-905a-0b9f2acc3b7a</webElementGuid>
+      <webElementGuid>2f3bd64e-2583-4f81-af8b-0ba2428501f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
-      <webElementGuid>7196a3e3-12a0-4301-8038-e5daab19d03a</webElementGuid>
+      <webElementGuid>8ab0abd9-ae7f-44fc-9f7c-ac3f08641b21</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
-      <webElementGuid>84e622d3-b931-497f-9702-8799ae2bea2c</webElementGuid>
+      <webElementGuid>cede1525-e504-4ac0-9b05-0f05a0416da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Samsung galaxy s6')]</value>
-      <webElementGuid>08486915-0fed-4243-9827-cf069285eb30</webElementGuid>
+      <webElementGuid>7bec7c9a-0de2-4907-93b6-db9b64db2ff0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'prod.html?idp_=1')])[2]</value>
-      <webElementGuid>0a0267f7-cc12-47fd-9f84-cca4a4392673</webElementGuid>
+      <webElementGuid>dcb0ff24-786a-44a8-a1e3-0f307835d055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4/a</value>
-      <webElementGuid>51978db4-076c-4689-b739-01b2c26acaa4</webElementGuid>
+      <webElementGuid>3836902a-9f21-4512-8028-17733fd42153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
-      <webElementGuid>5c783e04-d19e-4e65-8596-6ca5b07a52c9</webElementGuid>
+      <webElementGuid>5b22365c-7dfd-40be-85aa-0d63b2802392</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
