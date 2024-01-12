@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_Login/a_Log in'))
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Login/inputloginusername'), 60)
+
 WebUI.setText(findTestObject('Object Repository/Page_Login/inputloginusername'), GlobalVariable.USERNAME)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/inputloginpassword'), GlobalVariable.PASSWORD)
