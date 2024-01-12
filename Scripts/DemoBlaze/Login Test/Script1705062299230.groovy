@@ -31,6 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/inputloginpa
 
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Log in'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Login/a_Welcome demo_blaze123'), 60)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Login/a_Welcome demo_blaze123'), 'Welcome demo_blaze123')
 
 WebUI.closeBrowser()
