@@ -37,5 +37,3 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/a
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 'Welcome demo_blaze123')
 
-WebUI.closeBrowser()
-

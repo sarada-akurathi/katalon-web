@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Login/inputloginusername'), 60)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/inputloginusername'), username)
+WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/inputloginpassword'), password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), password)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
 
 WebUI.closeBrowser()
 

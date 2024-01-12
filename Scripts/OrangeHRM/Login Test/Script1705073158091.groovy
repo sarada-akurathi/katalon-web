@@ -19,23 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), 'Admin')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.USERNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
-
-WebUI.waitForPageLoad(60)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 60)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 'Welcome demo_blaze123')
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
 WebUI.closeBrowser()
 

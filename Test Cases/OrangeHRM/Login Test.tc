@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login Test</name>
-   <tag>Smoke</tag>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>7c2f6439-4644-492c-9f34-a0be868ee8cf</testCaseGuid>
+   <testCaseGuid>0854077c-8c13-47de-bfc1-9f59b9867f75</testCaseGuid>
 </TestCaseEntity>
