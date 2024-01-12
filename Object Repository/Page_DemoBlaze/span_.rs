@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>8331dddc-1176-4984-919b-89f61b23f725</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#videoModal > div.modal-dialog > div.modal-content > div.modal-header > button.close > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='videoModal']/div/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c6af0cb8-c67b-4256-a341-81b6b2977c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>560d7022-d92c-4c7a-ab08-0a0776ec35f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>40380326-8e90-4e5c-9838-1e24c13836fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;videoModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/span[1]</value>
+      <webElementGuid>4482b46d-4e73-4b6c-a19c-b67159050809</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='videoModal']/div/div/div/button/span</value>
+      <webElementGuid>7b3cf5a3-4749-490d-a13a-2c0f676abb27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About us'])[1]/following::span[1]</value>
+      <webElementGuid>7b610158-053d-4e36-85f7-3a5976c15652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/following::span[1]</value>
+      <webElementGuid>4c71926b-4c8a-4c00-b028-133d98fbef4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Player is loading.'])[1]/preceding::span[1]</value>
+      <webElementGuid>2a57b254-3fc7-42c4-9eb8-5df09739e23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/preceding::span[3]</value>
+      <webElementGuid>334bf1f2-e108-49a7-b2d7-27e293f93b49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/button/span</value>
+      <webElementGuid>98ef1269-7c87-4081-b3be-cde0d2b1e18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>b70cc39f-3b56-443a-a9e4-7ac8431c8ebe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
