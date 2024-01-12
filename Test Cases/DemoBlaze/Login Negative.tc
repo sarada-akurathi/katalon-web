@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login Negative</name>
-   <tag></tag>
+   <tag>Regression</tag>
    <comment></comment>
    <testCaseGuid>accbb9ed-e819-4e58-b4bf-d6aa750ccaa2</testCaseGuid>
    <variableLinks>
