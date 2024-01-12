@@ -1,0 +1,14 @@
+
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+Reports
+settings
+.gradle
+output
+!output/.gitkeep
+build
+.classpath
+.project
