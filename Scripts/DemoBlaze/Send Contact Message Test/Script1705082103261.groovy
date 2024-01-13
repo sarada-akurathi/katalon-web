@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputrecipient-email'), 60)
+
 WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputrecipient-email'), 'sarada@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputrecipient-name'), 'Sarada')

@@ -31,6 +31,10 @@ WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Place Order'))
 
+WebUI.delay(2)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputname'), 60)
+
 WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputname'), 'Sarada')
 
 WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputcountry'), 'India')
@@ -49,7 +53,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/h2_Than
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_OK'))
 
-WebUI.click(findTestObject('Page_DemoBlaze/a_Log out'))
+WebUI.delay(2)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/a_Log out'), 60)
+
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log out'))
 
 WebUI.closeBrowser()
 

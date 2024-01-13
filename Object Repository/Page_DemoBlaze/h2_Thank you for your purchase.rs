@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[11]/h2</value>
+         <value>//h2[(text() = 'Thank you for your purchase!' or . = 'Thank you for your purchase!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

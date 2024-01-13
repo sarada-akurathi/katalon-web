@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
 
+WebUI.delay(2)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
 
 WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), username)
