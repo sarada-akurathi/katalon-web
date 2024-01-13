@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/button_Close'), 60)
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Close'))
+WebUI.click(findTestObject('Page_DemoBlaze/button_Close'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_About us'))
 
