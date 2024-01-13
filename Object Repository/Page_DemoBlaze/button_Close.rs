@@ -16,7 +16,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+         <value>//div[@id='exampleModal']/div/div/div[3]/button</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -31,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9d112eec-b131-4443-ac73-22c834d96e41</webElementGuid>
+      <webElementGuid>83a7fbb9-196e-42d1-8e06-54916baab8f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>96d33b2d-feb1-4da5-ba5a-9cc62f5f11a3</webElementGuid>
+      <webElementGuid>591c6e1e-37d5-4a0e-9f00-e171ed1ba663</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary</value>
-      <webElementGuid>03d0d9a7-da8f-4807-a6f4-6b70c8b12aa3</webElementGuid>
+      <webElementGuid>61d28e30-f1ef-4e80-8f68-a80ec9591f00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>110db468-3061-4508-8f63-72072a46621f</webElementGuid>
+      <webElementGuid>33295f2d-eef2-4354-9dd0-eca1bfbdf6c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>3f62d414-551c-4218-beb0-8ea20940b866</webElementGuid>
+      <webElementGuid>690b760f-356a-4cf8-81cf-e0ff443044da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;exampleModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
-      <webElementGuid>7e4611a5-8d9b-474b-9491-d0a8e94ff03f</webElementGuid>
+      <webElementGuid>d70a7331-5282-4de6-8ef4-0b49c889112e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>363686a0-b5d5-4c70-93c9-a29686b30455</webElementGuid>
+      <webElementGuid>644ec919-fd2c-4897-8c96-32c5fddc25dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='exampleModal']/div/div/div[3]/button</value>
-      <webElementGuid>da01e514-86a2-4d45-b482-aa13244b0ce3</webElementGuid>
+      <webElementGuid>de78f390-4645-4f40-a322-ae977e2ad154</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>4dac87e5-f1e5-4a50-8d5c-5078065da5bf</webElementGuid>
+      <webElementGuid>aa2d0cb4-5216-4f07-a608-ded26db58e56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
-      <webElementGuid>76ede8df-1aed-4d1e-8fd9-5d5c863f0be0</webElementGuid>
+      <webElementGuid>a435970d-a68e-403a-9edf-e287e9bb6db7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

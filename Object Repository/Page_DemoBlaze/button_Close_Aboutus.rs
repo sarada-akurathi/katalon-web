@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[25]</value>
+         <value>//div[@id='videoModal']/div/div/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>150c29db-2a36-4d74-91fb-8ea30ec4d932</webElementGuid>
+      <webElementGuid>fa59196a-352c-4001-801c-2ea26e364a78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6ba2cb37-fc95-4507-97a4-0e2b417d23cb</webElementGuid>
+      <webElementGuid>48c4a687-e144-4ee6-bf96-5d5fc37208f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary</value>
-      <webElementGuid>05b9c778-6f6c-47e6-8b9d-779a605a4ba3</webElementGuid>
+      <webElementGuid>615cc00b-0c71-40bb-91c8-1e5d4059da0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>f5fc1c54-cc04-4f52-897c-1955121b4bc6</webElementGuid>
+      <webElementGuid>123f4e08-484f-43cc-b0d0-cc37265e2f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>07f3dbab-740e-401b-bf9d-6adc5111a922</webElementGuid>
+      <webElementGuid>5c80128f-10bc-4f95-9166-bb8263418957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;videoModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
-      <webElementGuid>46ca5c9b-0f72-462c-a621-5c22ee0923e5</webElementGuid>
+      <webElementGuid>12f5ef86-c595-4b3e-bd07-d20142dec9e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[25]</value>
-      <webElementGuid>07fbe8d9-b346-4bed-98e4-bd1ed4e578d4</webElementGuid>
+      <webElementGuid>e536e2d7-d536-44eb-900d-e24a6cf07ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='videoModal']/div/div/div[3]/button</value>
-      <webElementGuid>7ef7dfec-d536-42b1-8a58-5c599a7d5c28</webElementGuid>
+      <webElementGuid>53731ea0-9de4-4d94-a4ed-bc3215e23f13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Modal Dialog'])[1]/following::button[1]</value>
-      <webElementGuid>a874f90d-729f-4c9f-a2e2-f784800a04e6</webElementGuid>
+      <webElementGuid>b42aff78-c932-4a42-8762-443a058f0695</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/following::button[2]</value>
-      <webElementGuid>acf8f67e-cd21-4846-86c2-31dbbc6b912a</webElementGuid>
+      <webElementGuid>6fda1a1b-176b-41b7-8188-cf8c48dfb99d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PRODUCT STORE'])[1]/preceding::button[2]</value>
-      <webElementGuid>bfd15080-66c8-46cc-a939-6301970c4603</webElementGuid>
+      <webElementGuid>a4c593b2-c600-4429-8744-de229524f98d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/button</value>
-      <webElementGuid>7f5b4e7a-2f85-41ec-8221-017527427499</webElementGuid>
+      <webElementGuid>bcb14c32-b404-408c-bdc5-6b88c2e57001</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
-      <webElementGuid>ec63ac94-828d-46fc-a8b5-977f0f9a1281</webElementGuid>
+      <webElementGuid>91ac2516-a47b-46aa-ac01-e7cb02c1de17</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
