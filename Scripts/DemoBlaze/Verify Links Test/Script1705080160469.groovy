@@ -23,17 +23,17 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Home (current)'))
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/button_Close'), 60)
-
-WebUI.click(findTestObject('Page_DemoBlaze/button_Close'))
-
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_About us'))
 
 WebUI.waitForElementClickable(findTestObject('Page_DemoBlaze/button_Close_Aboutus'), 60)
 
 WebUI.click(findTestObject('Page_DemoBlaze/button_Close_Aboutus'))
+
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/button_Close_Contactus'), 60)
+
+WebUI.click(findTestObject('Page_DemoBlaze/button_Close_Contactus'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Cart'))
 
