@@ -13,11 +13,14 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
+WebUI.enableSmartWait()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
@@ -28,6 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_About us'))
 WebUI.waitForElementClickable(findTestObject('Page_DemoBlaze/button_Close_Aboutus'), 60)
 
 WebUI.click(findTestObject('Page_DemoBlaze/button_Close_Aboutus'))
+
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
 
