@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarExample']/ul/li[2]/a</value>
+         <value>//a[contains(text(),'Contact')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>15e3406e-3c4d-4a66-93c2-e3f8d3cb76bf</webElementGuid>
+      <webElementGuid>8b7d2196-4f5c-4f6a-bba7-83e5e15e9523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>6b610845-d068-4529-a94b-93d5a10d8685</webElementGuid>
+      <webElementGuid>6512b2a9-25ea-4256-b764-8da39ac2c69d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>02551294-a0e5-42ac-b1fa-9ad223865de3</webElementGuid>
+      <webElementGuid>a55c9898-da99-46fa-adf6-95e475782266</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#exampleModal</value>
-      <webElementGuid>3aa106c8-8500-43a8-a5e3-36fa3a91aa87</webElementGuid>
+      <webElementGuid>75733fc0-46e0-4e19-bb33-34f1a16bfee0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>cc82ac31-3b27-496b-ac6c-babb86439bc4</webElementGuid>
+      <webElementGuid>b35cdcd7-f2df-459a-ad18-a400d5d3493a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact</value>
-      <webElementGuid>e89fd25e-3b97-4753-b144-294b6716524c</webElementGuid>
+      <webElementGuid>4c46465a-8e9a-4067-b9c8-0f94c96d7056</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>d0897a97-dd0f-4ddf-a15d-c5d78b5ced31</webElementGuid>
+      <webElementGuid>fe92c131-dcb1-4a48-b994-10250f104b0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarExample']/ul/li[2]/a</value>
-      <webElementGuid>13a76900-e7af-4f64-b22b-801a9966d0b9</webElementGuid>
+      <webElementGuid>987719c5-6fe3-4fa6-9656-9796f398c5b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Contact')]</value>
-      <webElementGuid>91c5f3a6-9320-41c1-8582-0748d57c6dcc</webElementGuid>
+      <webElementGuid>990d98c2-2f3f-4b5a-a297-6fb80e3e844d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>418af7a4-1c10-47f0-abdd-217915705871</webElementGuid>
+      <webElementGuid>eb88ae10-3f6a-4813-95fb-9ca299961f7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>d336e63f-111c-43a7-85a3-5feb0213a9bd</webElementGuid>
+      <webElementGuid>bb691d65-4dc4-4c14-8abd-e45241510161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Contact' or . = 'Contact')]</value>
-      <webElementGuid>cb673f9d-94f2-4308-b5fb-11b279a574a0</webElementGuid>
+      <webElementGuid>8d8071d7-4e15-4a6e-abb3-340e74cbe44b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
