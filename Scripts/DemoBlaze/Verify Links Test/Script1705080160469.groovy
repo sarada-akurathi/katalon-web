@@ -25,29 +25,29 @@ WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Home (current)'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Contact'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/button_Close'),60)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/button_Close'), 60)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Close'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_About us'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/span_'),60)
+WebUI.waitForElementClickable(findTestObject('Page_DemoBlaze/button_Close_Aboutus'), 60)
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/span_'))
+WebUI.click(findTestObject('Page_DemoBlaze/button_Close_Aboutus'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/span_ (1)'),60)
+WebUI.waitForElementClickable(findTestObject('Page_DemoBlaze/button_Close_login'), 60)
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/span_ (1)'))
+WebUI.click(findTestObject('Page_DemoBlaze/button_Close_login'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Sign up'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/span_ (2)'),60)
+WebUI.waitForElementClickable(findTestObject('Page_DemoBlaze/button_Close_Signup'), 60)
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/span_ (2)'))
+WebUI.click(findTestObject('Page_DemoBlaze/button_Close_Signup'))
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Home (current)'))
 
