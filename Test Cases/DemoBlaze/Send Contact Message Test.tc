@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Contact Message Test</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>cf676241-6ef7-42d4-8c87-4be8cb7d6f6a</testCaseGuid>
+</TestCaseEntity>

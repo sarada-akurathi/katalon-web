@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f0717c7b-4764-4d6b-bb15-5946f8b6845e</webElementGuid>
+      <webElementGuid>15e3406e-3c4d-4a66-93c2-e3f8d3cb76bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>f8382d12-e02e-48dd-879a-17f6cd351cbb</webElementGuid>
+      <webElementGuid>6b610845-d068-4529-a94b-93d5a10d8685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>91643be7-8208-49eb-b5f5-392e43faa147</webElementGuid>
+      <webElementGuid>02551294-a0e5-42ac-b1fa-9ad223865de3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#exampleModal</value>
-      <webElementGuid>ecd0f502-3577-49d1-8682-7d26f3845606</webElementGuid>
+      <webElementGuid>3aa106c8-8500-43a8-a5e3-36fa3a91aa87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>dbfdd026-cfff-42b7-ad65-b41ea174b474</webElementGuid>
+      <webElementGuid>cc82ac31-3b27-496b-ac6c-babb86439bc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact</value>
-      <webElementGuid>c1159c45-8d03-47e0-8a55-84ee928239c3</webElementGuid>
+      <webElementGuid>e89fd25e-3b97-4753-b144-294b6716524c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>661d8511-6f5b-4f5b-8713-013841f198de</webElementGuid>
+      <webElementGuid>d0897a97-dd0f-4ddf-a15d-c5d78b5ced31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarExample']/ul/li[2]/a</value>
-      <webElementGuid>e5f77c68-c81d-4589-8a9c-dd9eb6105127</webElementGuid>
+      <webElementGuid>13a76900-e7af-4f64-b22b-801a9966d0b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Contact')]</value>
-      <webElementGuid>ce9e6e9a-c583-447a-9f29-18c106fc987f</webElementGuid>
+      <webElementGuid>91c5f3a6-9320-41c1-8582-0748d57c6dcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>bdd29206-3651-4a49-9cce-d9c67463fa2f</webElementGuid>
+      <webElementGuid>418af7a4-1c10-47f0-abdd-217915705871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>1be4882c-2878-45d6-a1f0-d85b7b4917c1</webElementGuid>
+      <webElementGuid>d336e63f-111c-43a7-85a3-5feb0213a9bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Contact' or . = 'Contact')]</value>
-      <webElementGuid>a4cc583e-b391-4804-8882-8eaacab3d491</webElementGuid>
+      <webElementGuid>cb673f9d-94f2-4308-b5fb-11b279a574a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
