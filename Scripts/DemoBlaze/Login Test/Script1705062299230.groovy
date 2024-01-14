@@ -41,7 +41,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Welco
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('demo_blaze_after_login', [])
+WebUI.takeElementScreenshotAsCheckpoint('demo_blaze_after_login', findTestObject('Page_DemoBlaze/a_Welcome demo_blaze123'))
 
 WebUI.closeBrowser()
 
