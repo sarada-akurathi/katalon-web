@@ -31,6 +31,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/h3_360 
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Add to cart'), 'Add to cart')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('product_details')
+
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Home (current)'))
 
 WebUI.closeBrowser()
