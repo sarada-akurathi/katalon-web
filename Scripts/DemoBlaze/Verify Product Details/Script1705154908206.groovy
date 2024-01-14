@@ -23,17 +23,15 @@ WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Samsung galaxy s6'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/h2_Samsung galaxy s6'), 'Samsung galaxy s6')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/h3_360 includes tax'), '$360 *includes tax')
 
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.DEMOBLAZE_USERNAME)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Add to cart'), 'Add to cart')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.DEMOBLAZE_PASSWORD)
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Home (current)'))
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
-
-WebUI.delay(2)
+WebUI.closeBrowser()
 

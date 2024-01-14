@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='signin2']</value>
+         <value>//div[@id='navbarExample']/ul/li[8]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>99695fe8-070c-41d8-a660-9e8cf9e1ea1f</webElementGuid>
+      <webElementGuid>30fdd2b1-2836-49f5-9ca1-b7770d886674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>f5fdf364-614c-4fac-8cf1-02bbabc48134</webElementGuid>
+      <webElementGuid>df875a4b-f625-4d50-806c-d712625b70d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>4bd0b92e-ddee-40fc-a0c6-e5ac0f9254f2</webElementGuid>
+      <webElementGuid>5c95ba28-9982-4a58-a6d0-ef53479522f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>signin2</value>
-      <webElementGuid>b790bb3c-4f7b-43a6-b0af-9b898cf68a8e</webElementGuid>
+      <webElementGuid>0daf9645-e8ff-4d70-8022-93f2ca7b7efa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>edff072b-e340-4880-b2c8-5752ec1bf853</webElementGuid>
+      <webElementGuid>98b2b61d-a796-44f3-a0f0-062a795b7554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#signInModal</value>
-      <webElementGuid>e55773ed-583b-4e52-bebd-28c129df6414</webElementGuid>
+      <webElementGuid>243f0904-0e13-44b9-9279-34529fdfdcb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign up</value>
-      <webElementGuid>6fa6ca41-8357-496e-96fe-661cc55a3b75</webElementGuid>
+      <webElementGuid>b0424b94-d922-4224-84d4-9e224691b1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,23 +78,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;signin2&quot;)</value>
-      <webElementGuid>7b5c94e3-c2e1-4cf2-90b2-b738a0ec07ac</webElementGuid>
+      <webElementGuid>283aa931-49cc-486d-8893-e74c9fd6e75c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='signin2']</value>
-      <webElementGuid>9485fd22-4e59-4e08-8c23-80be3ab2a964</webElementGuid>
+      <value>//div[@id='navbarExample']/ul/li[8]/a</value>
+      <webElementGuid>756011ac-fd1d-485d-9c6a-c3f5dd73ad58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li[8]/a</value>
-      <webElementGuid>c7892a3a-0b31-458f-9954-64e42eddeeb8</webElementGuid>
+      <value>//a[@id='signin2']</value>
+      <webElementGuid>d85c87d7-dbd8-456f-ae78-26215321a1cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign up')]</value>
-      <webElementGuid>c7a34cf0-7aef-4d2c-baa7-b05670449431</webElementGuid>
+      <webElementGuid>53b123bf-e4c9-4c70-a81f-08842ab6141c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>e72be357-e6f5-452f-a09a-176b0d9d4e8f</webElementGuid>
+      <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>b6ab8180-2905-406f-af97-b693cb070a69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/a</value>
-      <webElementGuid>c697395d-492d-46ab-b1e1-393c87cf98be</webElementGuid>
+      <webElementGuid>46e9a569-23bf-49e5-bdb1-9c0e1149e863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @id = 'signin2' and (text() = 'Sign up' or . = 'Sign up')]</value>
-      <webElementGuid>220c9258-efb0-4c51-a629-98b6feb84143</webElementGuid>
+      <webElementGuid>783c50c6-001b-49a1-94dc-831f189c319e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

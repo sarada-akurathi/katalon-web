@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Employee Test</name>
+   <tag>Orange Regression</tag>
+   <comment></comment>
+   <testCaseGuid>9efa2814-31a0-403f-b2ea-12fcf9303cd7</testCaseGuid>
+</TestCaseEntity>

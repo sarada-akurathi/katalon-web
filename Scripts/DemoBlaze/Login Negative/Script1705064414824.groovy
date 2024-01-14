@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
 

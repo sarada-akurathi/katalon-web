@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Samsung galaxy s6</name>
+   <name>Add Employee_link</name>
    <tag></tag>
-   <elementGuidId>a59a7232-0882-400e-b953-18b9afd793da</elementGuidId>
+   <elementGuidId>daaba989-d6a8-4993-9a5a-55cad86d1644</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.hrefch</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
+         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>c4c5e1bf-03aa-4ba6-bdf6-008392c4e990</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>prod.html?idp_=1</value>
-      <webElementGuid>81128b84-4b3d-4a0b-86dc-372c6d90fdf8</webElementGuid>
+      <value>li</value>
+      <webElementGuid>c30b37e7-3fdd-4d60-bc2b-fe1c7dd5ac28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>hrefch</value>
-      <webElementGuid>e1d4b714-d40f-41ef-8ab5-1fc0ba5b2537</webElementGuid>
+      <value>oxd-topbar-body-nav-tab</value>
+      <webElementGuid>f02e5364-d541-489b-9b09-674c548142f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Samsung galaxy s6</value>
-      <webElementGuid>eb511c20-bf5d-4146-a56d-25257ce51edf</webElementGuid>
+      <value>Add Employee</value>
+      <webElementGuid>f0d24ad1-a0f1-4039-baec-2c9f7dbc0d6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
-      <webElementGuid>ab7b8f04-0d7d-4297-902c-83ee032bfff2</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab&quot;]</value>
+      <webElementGuid>3b5e67fe-9ef5-4f59-b218-04011090a4da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
-      <webElementGuid>7f9e082a-b592-4016-a615-68fa62164342</webElementGuid>
+      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[3]</value>
+      <webElementGuid>1e77ccfa-5c9a-4290-b4ed-e8bc01f8206b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Samsung galaxy s6')]</value>
-      <webElementGuid>cb00edd5-b920-400c-b073-2993fdc67e10</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::li[2]</value>
+      <webElementGuid>3258f022-4e79-49f5-8563-ecc041bd1ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, 'prod.html?idp_=1')])[2]</value>
-      <webElementGuid>809e6694-0da3-43b3-9915-a1b881447c87</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::li[2]</value>
+      <webElementGuid>aba09b48-b6e3-42c4-b492-f9c0409bc9e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h4/a</value>
-      <webElementGuid>5a987870-4e29-4031-b3e9-246fb1e3664f</webElementGuid>
+      <value>//nav/ul/li[3]</value>
+      <webElementGuid>f42bce60-6ac6-4acc-bcab-8f2f26a624b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
-      <webElementGuid>b5ec7d44-2001-4882-ab77-c163a560cc08</webElementGuid>
+      <value>//li[(text() = 'Add Employee' or . = 'Add Employee')]</value>
+      <webElementGuid>fd09a98e-968f-43de-828f-e9d198e59aef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

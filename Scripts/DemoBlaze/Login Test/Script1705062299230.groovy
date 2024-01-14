@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
 
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.DEMOBLAZE_USERNAME)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.DEMOBLAZE_PASSWORD)
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
 
@@ -36,6 +38,8 @@ WebUI.waitForPageLoad(60)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 60)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 'Welcome demo_blaze123')
+
+WebUI.takeScreenshotAsCheckpoint('demo_blaze_after_login')
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add to cart</name>
+   <name>button_Sign up</name>
    <tag></tag>
-   <elementGuidId>3111b4ee-1df2-40d3-828b-24488c39e779</elementGuidId>
+   <elementGuidId>e27be505-491e-46fb-b012-bb3815899dc5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.btn.btn-success.btn-lg</value>
+         <value>#signInModal > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tbodyid']/div[2]/div/a</value>
+         <value>//div[@id='signInModal']/div/div/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>0762383a-7c6c-46cb-aefb-98a8cdb181f4</webElementGuid>
+      <value>button</value>
+      <webElementGuid>02f3b1db-b7db-4836-a6e2-2a37379f0b97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>3231fb3a-43e1-4c93-aefa-6ac484680dd1</webElementGuid>
+      <value>button</value>
+      <webElementGuid>caf7a270-e7ee-4dc2-ad4f-34b3e156a46e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>addToCart(1)</value>
-      <webElementGuid>4935e6aa-f4ed-49f3-b539-8046678554fc</webElementGuid>
+      <value>register()</value>
+      <webElementGuid>f7d631b7-33b0-4455-85fa-7b1c945b4390</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-success btn-lg</value>
-      <webElementGuid>383e2eb8-4ba1-4fe2-addd-a94b8bc7a7fe</webElementGuid>
+      <value>btn btn-primary</value>
+      <webElementGuid>c8530c99-61b8-463d-a375-83ce9e791b0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to cart</value>
-      <webElementGuid>890630c3-deeb-4578-8384-016a393d2e2c</webElementGuid>
+      <value>Sign up</value>
+      <webElementGuid>f89daa72-b1de-4d76-9ac4-a33e941980a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6&quot;]/a[@class=&quot;btn btn-success btn-lg&quot;]</value>
-      <webElementGuid>e98d2d6b-28c5-4940-9286-15b341493bc5</webElementGuid>
+      <value>id(&quot;signInModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>e69c5a4c-e21e-4155-9a48-24b17f9d73e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbodyid']/div[2]/div/a</value>
-      <webElementGuid>25b1bb8a-9dad-4195-968e-a2474a1b7c4d</webElementGuid>
+      <value>//div[@id='signInModal']/div/div/div[3]/button[2]</value>
+      <webElementGuid>0b50d353-b745-4a9c-83a2-4cb38ff9cd86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick='addToCart(1)']</value>
-      <webElementGuid>fd652975-740e-48b8-8b8c-0e80f9e31310</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Add to cart')]</value>
-      <webElementGuid>0caae725-fa3b-4597-9cd8-0bdf0f21390a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[9]</value>
-      <webElementGuid>5d9e2ab6-b15a-4502-88cd-0691514f6060</webElementGuid>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>59caf30d-84ea-4d9b-b2d9-613c1f8e5b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a</value>
-      <webElementGuid>dd1e0e12-4eb2-4ca9-901b-aea781a8823c</webElementGuid>
+      <value>//div[2]/div/div/div[3]/button[2]</value>
+      <webElementGuid>dddb02dd-737d-4647-a7e3-60764006a5c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>f21a115d-2d5f-4f20-8a41-0ecb8854a435</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Sign up' or . = 'Sign up')]</value>
+      <webElementGuid>d7a0e573-5112-4719-821c-64b23bcc7abc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

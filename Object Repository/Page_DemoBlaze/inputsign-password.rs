@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Home (current)</name>
+   <name>inputsign-password</name>
    <tag></tag>
-   <elementGuidId>0c430435-a00e-456f-a0d7-d85e7e3dd156</elementGuidId>
+   <elementGuidId>276d848f-4068-434b-8584-c77209892a89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.nav-link</value>
+         <value>#sign-password</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarExample']/ul/li/a</value>
+         <value>//div[@id='signInModal']/div/div/div[2]/form/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>00db1e20-c276-4fb3-a5ee-b06f0d7332b4</webElementGuid>
+      <value>input</value>
+      <webElementGuid>8e38822b-0ef8-46ba-b2ac-48f92b821d16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>98615b08-e705-4054-af11-42c3fd86b48b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>f1644cc2-ce2f-4c79-9d9c-28a34ad710d1</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>683b4bc3-a920-4030-8fce-bc2c9d6b6a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>index.html</value>
-      <webElementGuid>d1545235-5da7-4d4c-a69a-27c3749906fc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Home (current)</value>
-      <webElementGuid>3670e26f-2d5b-4852-84a3-d9dbde3e02d4</webElementGuid>
+      <value>sign-password</value>
+      <webElementGuid>8db92b85-10e8-4efd-9986-45de9201ea91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item active&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>ad6c53a0-8d4c-4465-8dab-74ba0d1f9794</webElementGuid>
+      <value>id(&quot;sign-password&quot;)</value>
+      <webElementGuid>ff966652-3ea3-4f1b-988b-bf28586c5698</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li/a</value>
-      <webElementGuid>fe14c88f-6b84-4b66-ac31-fe6a2eb7522a</webElementGuid>
+      <value>//div[@id='signInModal']/div/div/div[2]/form/div[2]/input</value>
+      <webElementGuid>e8b94383-1707-4983-ae9a-c89db432afaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[contains(@href, 'index.html')])[2]</value>
-      <webElementGuid>1fe96106-325d-4f7c-94cd-eef7bc030faa</webElementGuid>
+      <value>//input[@id='sign-password']</value>
+      <webElementGuid>fdf5f6ca-43b3-4080-8295-553d7c646a60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>b8753f2f-77b5-45ad-a218-cf8f74c88a4a</webElementGuid>
+      <value>//div[2]/div/div/div[2]/form/div[2]/input</value>
+      <webElementGuid>0d3cc76d-8d00-4e11-8ecd-e3d1d825cd57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'index.html' and (text() = 'Home (current)' or . = 'Home (current)')]</value>
-      <webElementGuid>a29858cb-ef5e-4f97-8518-900d8b95b724</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'sign-password']</value>
+      <webElementGuid>97f66c94-38b6-45ed-b0d8-16b08f01138d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

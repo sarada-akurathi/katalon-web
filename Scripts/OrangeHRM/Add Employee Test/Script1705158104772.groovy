@@ -17,23 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OrangeHRM/Login To Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_PIM'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Add Employee_link'))
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'), 'John')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'), 'Roy')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_add employee_switch'))
 
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.DEMOBLAZE_USERNAME)
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.DEMOBLAZE_PASSWORD)
+RN = ((Math.random() * 100) as int)
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'), 'john_smith' + RN)
 
-WebUI.delay(2)
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/add_employee_input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/add_employee_input_Confirm Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
+
+WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Home (current)</name>
+   <name>span_PIM</name>
    <tag></tag>
-   <elementGuidId>0c430435-a00e-456f-a0d7-d85e7e3dd156</elementGuidId>
+   <elementGuidId>56bc2987-f689-47ae-8831-840328071c56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.nav-link</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarExample']/ul/li/a</value>
+         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>00db1e20-c276-4fb3-a5ee-b06f0d7332b4</webElementGuid>
+      <value>span</value>
+      <webElementGuid>53ad0fad-3f4e-40c9-826e-c84962a654f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>f1644cc2-ce2f-4c79-9d9c-28a34ad710d1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>index.html</value>
-      <webElementGuid>d1545235-5da7-4d4c-a69a-27c3749906fc</webElementGuid>
+      <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
+      <webElementGuid>aee16500-6939-4914-b91f-1c2255d56dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Home (current)</value>
-      <webElementGuid>3670e26f-2d5b-4852-84a3-d9dbde3e02d4</webElementGuid>
+      <value>PIM</value>
+      <webElementGuid>9de29e51-a717-449e-a9cf-eeb1b8ac941a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item active&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>ad6c53a0-8d4c-4465-8dab-74ba0d1f9794</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]/span[@class=&quot;oxd-text oxd-text--span oxd-main-menu-item--name&quot;]</value>
+      <webElementGuid>7635e087-4770-4ed0-b9f2-4bfaa1578022</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li/a</value>
-      <webElementGuid>fe14c88f-6b84-4b66-ac31-fe6a2eb7522a</webElementGuid>
+      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a/span</value>
+      <webElementGuid>8eff05af-4058-4f7a-be85-6e998716c2d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, 'index.html')])[2]</value>
-      <webElementGuid>1fe96106-325d-4f7c-94cd-eef7bc030faa</webElementGuid>
+      <value>//*/text()[normalize-space(.)='PIM']/parent::*</value>
+      <webElementGuid>f3d99494-495c-4c0c-85c1-95e385854e48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>b8753f2f-77b5-45ad-a218-cf8f74c88a4a</webElementGuid>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>9104e2bb-f2dc-45ea-9d63-fd9a824c2c2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'index.html' and (text() = 'Home (current)' or . = 'Home (current)')]</value>
-      <webElementGuid>a29858cb-ef5e-4f97-8518-900d8b95b724</webElementGuid>
+      <value>//span[(text() = 'PIM' or . = 'PIM')]</value>
+      <webElementGuid>ed0ad317-81fb-4d1e-ac0a-4469f15fe2aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

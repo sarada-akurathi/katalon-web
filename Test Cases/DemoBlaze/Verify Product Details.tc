@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Product Details</name>
+   <tag>Functional</tag>
+   <comment></comment>
+   <testCaseGuid>a78689de-eb38-4c89-a81d-b19fc417b97a</testCaseGuid>
+</TestCaseEntity>

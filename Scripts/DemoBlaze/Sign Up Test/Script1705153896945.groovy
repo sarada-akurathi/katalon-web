@@ -23,17 +23,15 @@ WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Sign up'))
 
-WebUI.delay(2)
+RN = ((Math.random() * 100) as int)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
+WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputsign-username'), 'demo_blaze901' + RN)
 
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.DEMOBLAZE_USERNAME)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputsign-password'), 'ZuqE/oOiZ4tOcsMs6JCUyw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.DEMOBLAZE_PASSWORD)
+WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Sign up'))
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
-
-WebUI.delay(2)
+WebUI.closeBrowser()
 

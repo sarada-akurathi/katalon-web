@@ -19,21 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.DEMOBLAZE_URL)
+WebUI.navigateToUrl(GlobalVariable.ORANGEHRM_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/a_Log in'))
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.ORANGEHRM_USERNAME)
 
-WebUI.delay(2)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), GlobalVariable.ORANGEHRM_PASSWORD)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), 60)
-
-WebUI.setText(findTestObject('Object Repository/Page_DemoBlaze/inputloginusername'), GlobalVariable.DEMOBLAZE_USERNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputloginpassword'), GlobalVariable.DEMOBLAZE_PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
