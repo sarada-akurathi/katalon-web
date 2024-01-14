@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.ORANGEHRM_URL)
 
 WebUI.maximizeWindow()
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Login_orange_HRM')
+
 WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.ORANGEHRM_USERNAME)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), GlobalVariable.ORANGEHRM_PASSWORD)
