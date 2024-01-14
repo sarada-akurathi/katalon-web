@@ -33,11 +33,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_DemoBlaze/inputlog
 
 WebUI.click(findTestObject('Object Repository/Page_DemoBlaze/button_Log in'))
 
-WebUI.waitForPageLoad(60)
+WebUI.delay(2)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 60)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_DemoBlaze/a_Welcome demo_blaze123'), 'Welcome demo_blaze123')
+
+WebUI.delay(2)
 
 WebUI.takeScreenshotAsCheckpoint('demo_blaze_after_login')
 
