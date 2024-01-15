@@ -17,23 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Cura Healthcare Service/Login to Cura Healthcare'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Add_appointment_cura')
+WebUI.navigateToUrl(GlobalVariable.CURA_URL)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+WebUI.takeFullPageScreenshotAsCheckpoint('Login_Cura_Healthcare')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_31'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_username'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'Sample Appointment')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_username'), username)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_password'), password)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Add_appointment_confirm_cura')
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid'), 
+    'Login failed! Please ensure the username and password are valid.')
 
 WebUI.closeBrowser()
 

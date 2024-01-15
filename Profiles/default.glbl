@@ -41,12 +41,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'John Doe'</initValue>
       <name>CURA_USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</initValue>
       <name>CURA_PASSWORD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
