@@ -34,4 +34,19 @@
       <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
       <name>ORANGEHRM_PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
+      <name>CURA_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CURA_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CURA_PASSWORD</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
