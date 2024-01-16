@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Sauce Demo Test Suite</name>
+   <name>Sauce Demo - Negative Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,30 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e59b46b2-603a-4dea-aefe-809c52f6661f</testSuiteGuid>
+   <testSuiteGuid>bda70eb7-6eb5-4457-b651-aedd8eb5c338</testSuiteGuid>
    <testCaseLink>
-      <guid>3c87664f-2238-48b2-9ed7-24ec4543cf8d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SauceDemo/Login Test</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fb63e25e-718e-4220-808c-0cf196c3e7b6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SauceDemo/Product Details</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ce635947-3002-462f-9531-a8efc5d489a9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SauceDemo/Create order on Sauce Demo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c3cb83fb-6933-4e4e-88dc-a820ad6fdd5f</guid>
+      <guid>263369eb-7e78-40b4-8752-bb3260d82734</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SauceDemo/Login Test - Negative - Locked User</testCaseId>
@@ -52,7 +31,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>68ce48e7-9e81-4d12-9a45-2b7be3265087</guid>
+      <guid>45f1a30f-2c27-4d37-8ba8-b7bc1e78d25b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SauceDemo/Login Test - Negative - Wrong User</testCaseId>
