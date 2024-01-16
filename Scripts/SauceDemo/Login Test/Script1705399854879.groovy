@@ -17,29 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('OrangeHRM/Login To Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_PIM'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Add Employee_link'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'), 'John')
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'), 'Roy')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_add employee_switch'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'))
-
-RN = ((Math.random() * 100) as int)
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'), 'john_smith' + RN)
-
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/nput_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Confirm Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
+WebUI.callTestCase(findTestCase('SauceDemo/Login to SauceDemo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

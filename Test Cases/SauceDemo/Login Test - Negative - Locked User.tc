@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Test - Negative - Locked User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e981404-54d6-452f-a28e-9648b4d0303a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e35cd29-130a-4f67-8547-b8b2fdbaf546</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbd99119-35a6-4ad1-9cb1-a2814ab7a977</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description></description>
+      <id>1e35cd29-130a-4f67-8547-b8b2fdbaf546</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>fbd99119-35a6-4ad1-9cb1-a2814ab7a977</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

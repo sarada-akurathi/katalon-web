@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SelectAfghanistanAlbaniaAlgeriaAndor_973f8b</name>
+   <tag></tag>
+   <elementGuidId>3fdabd84-7a0e-47fa-ab2a-51ac8ef683ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c96b34d3-df39-41f4-8d81-3d33e5644b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SelectAfghanistanAlbaniaAlgeriaAndorraAngolaAnguillaAntigua &amp;amp; BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp;amp; HerzegovinaBotswanaBrazilBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsChadChileChinaColombiaCongoCook IslandsCosta RicaCote D IvoireCroatiaCruise ShipCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEstoniaEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench PolynesiaFrench West IndiesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKuwaitKyrgyz RepublicLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMauritaniaMauritiusMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueNamibiaNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Pierre &amp;amp; MiquelonSamoaSan MarinoSatelliteSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSouth AfricaSouth KoreaSpainSri LankaSt Kitts &amp;amp; NevisSt LuciaSt VincentSt. LuciaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor L'EsteTogoTongaTrinidad &amp;amp; TobagoTunisiaTurkeyTurkmenistanTurks &amp;amp; CaicosUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUnited States Minor Outlying IslandsUruguayUzbekistanVenezuelaVietnamVirgin Islands (US)YemenZambiaZimbabwe</value>
+      <webElementGuid>6351d8dc-6fa0-44c9-9f9b-390e2a6bda84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;products-wrapper&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;wrapperTwo&quot;]/div[1]/select[1]</value>
+      <webElementGuid>c847e697-cf3e-434d-a8c4-118e5ac981ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/select</value>
+      <webElementGuid>746157e1-1b4b-4c08-808d-6c057605f4a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>ff33f316-6c8d-421c-a9e9-2e54feb9662d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = concat(&quot;SelectAfghanistanAlbaniaAlgeriaAndorraAngolaAnguillaAntigua &amp;amp; BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp;amp; HerzegovinaBotswanaBrazilBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsChadChileChinaColombiaCongoCook IslandsCosta RicaCote D IvoireCroatiaCruise ShipCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEstoniaEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench PolynesiaFrench West IndiesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKuwaitKyrgyz RepublicLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMauritaniaMauritiusMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueNamibiaNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Pierre &amp;amp; MiquelonSamoaSan MarinoSatelliteSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSouth AfricaSouth KoreaSpainSri LankaSt Kitts &amp;amp; NevisSt LuciaSt VincentSt. LuciaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor L&quot; , &quot;'&quot; , &quot;EsteTogoTongaTrinidad &amp;amp; TobagoTunisiaTurkeyTurkmenistanTurks &amp;amp; CaicosUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUnited States Minor Outlying IslandsUruguayUzbekistanVenezuelaVietnamVirgin Islands (US)YemenZambiaZimbabwe&quot;) or . = concat(&quot;SelectAfghanistanAlbaniaAlgeriaAndorraAngolaAnguillaAntigua &amp;amp; BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia &amp;amp; HerzegovinaBotswanaBrazilBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsChadChileChinaColombiaCongoCook IslandsCosta RicaCote D IvoireCroatiaCruise ShipCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEstoniaEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench PolynesiaFrench West IndiesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKuwaitKyrgyz RepublicLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMauritaniaMauritiusMexicoMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueNamibiaNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Pierre &amp;amp; MiquelonSamoaSan MarinoSatelliteSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSouth AfricaSouth KoreaSpainSri LankaSt Kitts &amp;amp; NevisSt LuciaSt VincentSt. LuciaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor L&quot; , &quot;'&quot; , &quot;EsteTogoTongaTrinidad &amp;amp; TobagoTunisiaTurkeyTurkmenistanTurks &amp;amp; CaicosUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUnited States Minor Outlying IslandsUruguayUzbekistanVenezuelaVietnamVirgin Islands (US)YemenZambiaZimbabwe&quot;))]</value>
+      <webElementGuid>bb89cfe6-b673-49e9-ad4d-10e5acc31553</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

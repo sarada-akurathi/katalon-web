@@ -17,29 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('OrangeHRM/Login To Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_PIM'))
+WebUI.navigateToUrl('https://rahulshettyacademy.com/seleniumPractise/#/')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Add Employee_link'))
+WebUI.setText(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/input_search-keyword'), 'ca')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'), 'John')
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/button_ADD TO CART'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'), 'Roy')
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/button_ADD TO CART'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_add employee_switch'))
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'))
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/button_PROCEED TO CHECKOUT'))
 
-RN = ((Math.random() * 100) as int)
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/button_Place Order'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'), 'john_smith' + RN)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/select_SelectAfghanistanAlbaniaAlgeriaAndor_973f8b'), 
+    'India', true)
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/nput_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/input_chkAgree'))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Confirm Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_GreenKart - veg and fruits kart/button_Proceed'))
 
 WebUI.closeBrowser()
 

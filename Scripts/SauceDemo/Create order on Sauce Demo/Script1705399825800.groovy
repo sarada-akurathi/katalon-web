@@ -17,29 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('OrangeHRM/Login To Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SauceDemo/Login to SauceDemo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_PIM'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Add Employee_link'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'), 'John')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'), 'Roy')
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_firstName'), 'Sarada')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_add employee_switch'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_lastName'), 'Aku')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_postalCode'), '560043')
 
-RN = ((Math.random() * 100) as int)
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_continue'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_add_employee_Username'), 'john_smith' + RN)
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Finish'))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/nput_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/h2_Thank you for your order'), 'Thank you for your order!')
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Confirm Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Back Home'))
 
 WebUI.closeBrowser()
 

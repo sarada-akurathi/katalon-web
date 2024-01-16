@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_System UsersUsernameUser Role-- Select _8ac6cd</name>
+   <tag></tag>
+   <elementGuidId>cbf00f6d-ce7b-4250-864a-d379e1908f5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-layout-context</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>87a3ebd5-3ef1-4be3-9b86-86c03e5f316c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-layout-context</value>
+      <webElementGuid>99277c82-3ac6-491c-8e71-8046b85bf36a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>System UsersUsernameUser Role-- Select --Employee NameStatus-- Select -- Reset  Search  Add No Records FoundUsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActions</value>
+      <webElementGuid>75484661-10ba-4d8e-88c4-ddeaafac8dfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]</value>
+      <webElementGuid>1cf8e147-af1b-416d-bb16-516e0b6800fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]</value>
+      <webElementGuid>ad3f3f7a-a523-4f37-af18-aa9ae679ce95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[4]</value>
+      <webElementGuid>5f89c95c-a511-49e2-98dc-23791885b287</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::div[4]</value>
+      <webElementGuid>1ad77a64-2c08-42eb-aadb-076e722a04de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>751797e7-1291-4083-a4e0-45a1e1e2248c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'System UsersUsernameUser Role-- Select --Employee NameStatus-- Select -- Reset  Search  Add No Records FoundUsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActions' or . = 'System UsersUsernameUser Role-- Select --Employee NameStatus-- Select -- Reset  Search  Add No Records FoundUsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActions')]</value>
+      <webElementGuid>6120ca8b-6384-4073-9613-fdea6907f150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

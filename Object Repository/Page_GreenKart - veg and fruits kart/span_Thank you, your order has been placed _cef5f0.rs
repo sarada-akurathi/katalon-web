@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Thank you, your order has been placed _cef5f0</name>
+   <tag></tag>
+   <elementGuidId>4eb046fc-04eb-45a8-88f3-30742b642103</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.wrapperTwo > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29c13bff-c964-4708-8c01-292f03b8357f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thank you, your order has been placed successfully  You'll be redirected to Home page shortly!!</value>
+      <webElementGuid>a296e265-e469-4467-9a48-0a5cf53ec6d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;products-wrapper&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;wrapperTwo&quot;]/span[1]</value>
+      <webElementGuid>5ea9be33-aa6c-4049-94b1-f663ddb75a56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/span</value>
+      <webElementGuid>802a83b6-8920-4284-94d0-cca177c1587b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/span</value>
+      <webElementGuid>ffa07eaf-b76d-45eb-abb1-dda74fe113f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = concat(&quot;Thank you, your order has been placed successfully  You&quot; , &quot;'&quot; , &quot;ll be redirected to Home page shortly!!&quot;) or . = concat(&quot;Thank you, your order has been placed successfully  You&quot; , &quot;'&quot; , &quot;ll be redirected to Home page shortly!!&quot;))]</value>
+      <webElementGuid>bc29eee0-0227-4e1b-9c2b-9598f676d00e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

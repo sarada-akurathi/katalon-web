@@ -18,4 +18,23 @@
       <testCaseId>Test Cases/OrangeHRM/Login Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0e60bbd6-add9-4864-9ee7-06848beb1e33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/Login To Orange - Negative</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5493e15-2688-4fac-a7de-b55aa337afc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a3f71f6-c7e2-4570-9d1a-ffe6bc5e7fc1</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
